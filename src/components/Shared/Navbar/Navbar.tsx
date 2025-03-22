@@ -108,8 +108,8 @@ const Navbar = () => {
               <RiMenu3Fill size={28} />
             </button>
             <div
-              className={`fixed top-0 right-0 h-full w-64 bg-[#0A1931] shadow-lg transform transition-transform duration-500 ease-in-out 
-        ${navbar ? "translate-x-0" : "translate-x-full"}`}
+              className={`fixed top-0 right-0 h-full w-64 bg-primary shadow-lg transform transition-transform duration-500 ease-in-out z-50
+                        ${navbar ? "translate-x-0" : "translate-x-full"}`}
             >
               <button
                 onClick={() => setNavbar(false)}
@@ -130,7 +130,7 @@ const Navbar = () => {
                     key={index}
                     href={`/${item.toLowerCase().replace(/\s+/g, "-")}`}
                     onClick={() => setNavbar(false)}
-                    className="pb-6 text-sm text-white hover:text-[#62D4F9] transition duration-300 ease-in-out"
+                    className="pb-6 text-sm text-white hover:text-secondary transition duration-300 ease-in-out"
                   >
                     {item}
                   </Link>
