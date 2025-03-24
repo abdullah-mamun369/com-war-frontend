@@ -57,10 +57,8 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex">
             {/* NAVIGATION LINKS */}
-            <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0}`}
-            >
-              <div className="h-auto items-center justify-center flex-col md:flex-row gap-5 md:gap-8">
+            <div className={`flex-1 justify-self-center md:block}`}>
+              <div className="h-auto flex items-center gap-8">
                 {[
                   "HOME",
                   "ABOUT US",
@@ -74,7 +72,7 @@ const Navbar = () => {
                     key={index}
                     href={`/${item.toLowerCase().replace(/\s+/g, "-")}`}
                     onClick={() => setNavbar(!navbar)}
-                    className="pb-6 text-sm text-white hover:text-[#62D4F9] transition duration-300 ease-in-out"
+                    className="text-sm text-white hover:text-secondary transition duration-300 ease-in-out"
                   >
                     {item}
                   </Link>
@@ -120,6 +118,7 @@ const Navbar = () => {
               </button>
               <div className="h-full flex items-center justify-center flex-col gap-5">
                 {[
+                  "HOME",
                   "ABOUT US",
                   "TEAM",
                   "EVENTS",
