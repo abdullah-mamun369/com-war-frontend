@@ -15,15 +15,6 @@ import Container from "@/components/UI/Container/Container";
 const Footer = () => {
   return (
     <div className="relative h-fit bg-footer-gradient">
-      {/* <div className="absolute -z-10 w-full">
-        <Image
-          src={footerBg}
-          alt="footer-bg"
-          layout="responsive"
-          width={1200}
-          height={675}
-        />
-      </div> */}
       <Container>
         <div className="container flex flex-col md:flex-row justify-between pl-7 py-5 md:py-16 p md:pl-0">
           {/* About Section */}
