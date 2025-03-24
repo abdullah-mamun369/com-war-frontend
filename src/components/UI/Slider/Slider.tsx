@@ -22,22 +22,24 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-full md:h-screen overflow-hidden mt-14 md:mt-0">
       {/* Text Section */}
       <Container>
-        <div className="absolute  top-1/3 z-10 text-white">
+        <div className="absolute top-7 md:top-1/3 z-10 text-white px-7 md:px-4">
           <div>
-            <h1 className="text-[64px] font-bold leading-tight drop-shadow-lg">
-              One Team <br /> One Dream
+            <h1 className="text-[24px] md:text-[64px] font-bold leading-tight drop-shadow-lg">
+              <span className="text-secondary">One Team</span> <br /> One Dream
             </h1>
-            <p className="text-[20px] font-normal mt-4 drop-shadow-lg">
-              Join, where passion meets performance. <br />A team built for
-              victory, unity, and excellence.
+            <p className="text-sm md:text-lg font-light mt-2 md:mt-4 drop-shadow-lg">
+              Join <span className="text-secondary">Comilla Warriors</span>,
+              where passion meets performance.{" "}
+              <br className="hidden md:block" />
+              <span className="hidden md:block">
+                A team built for victory, unity, and excellence.
+              </span>
             </p>
           </div>
-          <div className="mt-6">
-            {" "}
-            {/* You can add margin-top for spacing */}
+          <div className="mt-3 md:mt-6">
             <Button variant="outlined" color="secondary">
               JOIN THE TEAM
             </Button>
@@ -55,7 +57,9 @@ const Slider = () => {
             <Image
               src={img}
               alt={`Slide ${i + 1}`}
-              layout="fill"
+              layout="responsive"
+              width={1920}
+              height={1080}
               objectFit="cover"
             />
           </div>
