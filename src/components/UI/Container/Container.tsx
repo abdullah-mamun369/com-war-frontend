@@ -20,9 +20,7 @@ const Container: React.FC<ContainerProps> = ({
   maxWidth = "xl",
 }) => {
   return (
-    <div
-      className={`w-full mx-auto md:px-4 ${maxWidthClasses[maxWidth]} ${className}`}
-    >
+    <div className={`w-full mx-auto ${maxWidthClasses[maxWidth]} ${className}`}>
       {children}
     </div>
   );

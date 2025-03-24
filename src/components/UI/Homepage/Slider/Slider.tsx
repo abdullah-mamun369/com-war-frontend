@@ -8,10 +8,8 @@ import slider3 from "@/assets/CW-website-banner-3.png";
 import slider4 from "@/assets/CW-website-banner-4.png";
 import Button from "../../Button/Button";
 import Container from "../../Container/Container";
-import styles from "@/Styles/CommonLayout/Homepage/Home.module.css";
 
 const images = [slider1, slider2, slider3, slider4];
-const floatingText = "LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND";
 
 const Slider = () => {
   const [index, setIndex] = useState(0);
@@ -27,7 +25,7 @@ const Slider = () => {
     <div className="relative w-full h-[60vh] md:h-screen overflow-hidden">
       {/* Text Section */}
       <Container>
-        <div className="absolute top-1/4 md:top-1/3 z-10 text-white px-4">
+        <div className="absolute top-1/4 md:top-1/3 z-10 text-white">
           <div>
             <h1 className="text-[32px] md:text-[64px] font-bold leading-tight drop-shadow-lg">
               <span className="text-secondary">One Team</span>{" "}
@@ -46,18 +44,6 @@ const Slider = () => {
           </div>
         </div>
       </Container>
-
-      {/* Floating Extra Text Section Slider
- <div className="absolute bottom-0 left-0 w-full z-20 bg-[#0a2742] text-white text-[18px] md:text-[24px] font-semibold py-2 border-t border-white shadow-lg overflow-hidden">
- <div className="animate-continuous-slide whitespace-nowrap">
-   {floatingText.repeat(10)}
- </div>
-</div> */}
-
-      {/* Floating Extra Text Section Slider */}
-      <div className={`${styles.floatingTextContainer}`}>
-        <div className={`${styles.floatingText}`}>{floatingText.repeat(2)}</div>
-      </div>
 
       {/* Image Slider */}
       <div
