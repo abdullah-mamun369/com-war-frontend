@@ -1,0 +1,31 @@
+.floatingTextContainer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  z-index: 20;
+  background: #0a2742;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 24px;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.floatingText {
+  display: inline-block;
+  animation: slideText 20s linear infinite;
+}
+
+@keyframes slideText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
