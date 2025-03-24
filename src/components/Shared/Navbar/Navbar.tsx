@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import navImage from "@/assets/nav-logo.png";
+import navLogo from "@/assets/nav-logo.png";
 import { RiMenu3Fill } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
@@ -47,7 +47,7 @@ const Navbar = () => {
             {/* LOGO */}
             <Link href="/">
               <Image
-                src={navImage}
+                src={navLogo}
                 width={100}
                 height={100}
                 alt="logo"
@@ -60,8 +60,9 @@ const Navbar = () => {
             <div
               className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0}`}
             >
-              <div className="h-auto items-center justify-center flex flex-col md:flex-row gap-5 md:gap-10">
+              <div className="h-auto items-center justify-center flex-col md:flex-row gap-5 md:gap-8">
                 {[
+                  "HOME",
                   "ABOUT US",
                   "TEAM",
                   "EVENTS",
