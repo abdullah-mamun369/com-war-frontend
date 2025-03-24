@@ -1,5 +1,3 @@
-import React from "react";
-
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "contained" | "outlined" | "text";
   color?: "primary" | "secondary" | "success" | "error" | "warning";
@@ -8,9 +6,9 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const colorClasses = {
   primary:
-    "bg-gradient-to-r from-primary to-secondary text-white hover:from-primary hover:to-secondary",
+    "bg-gradient-to-tl from-primary to-secondary text-white hover:from-primary hover:to-secondary",
   secondary:
-    "bg-gradient-to-r from-secondary to-accent text-white hover:from-secondary hover:to-accent",
+    "bg-gradient-to-r from-primary to-secondary text-white hover:from-primary hover:to-secondary",
   success: "bg-green-600 text-white hover:bg-green-500",
   error: "bg-red-600 text-white hover:bg-red-500",
   warning: "bg-yellow-600 text-white hover:bg-yellow-500",
