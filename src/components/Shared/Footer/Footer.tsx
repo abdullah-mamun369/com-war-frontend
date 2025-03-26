@@ -1,5 +1,4 @@
 import Image from "next/image";
-import footerBg from "@/assets/footer-bg.png";
 import navLogo from "@/assets/nav-logo.png";
 import { FaFacebookF } from "react-icons/fa";
 import { BiLogoInstagramAlt } from "react-icons/bi";
