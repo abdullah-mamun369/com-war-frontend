@@ -3,6 +3,7 @@ import footerBg from "@/assets/squad-bg.png";
 import Container from "../../Container/Container";
 import Button from "../../Button/Button";
 import Heading from "../../Heading/Heading";
+import ImageMask from "./ImageMask";
 
 const OurSquad = () => {
   return (
@@ -19,6 +20,9 @@ const OurSquad = () => {
       {/* Content on top of the background */}
       <Container className="relative flex flex-col items-center justify-center h-full text-white text-center px-4">
         <Heading title="OUR SQUAD" subtitle="Meet our squad for 2025 season." />
+        <div>
+          <ImageMask />
+        </div>
         <div className="mt-3 md:mt-6 text-center">
           <Button variant="contained" color="primary">
             VIEW MORE
