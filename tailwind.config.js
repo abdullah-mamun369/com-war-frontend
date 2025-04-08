@@ -20,10 +20,8 @@ module.exports = {
       backgroundImage: {
         "footer-gradient":
           "radial-gradient(ellipse at 50% 110%, rgba(9, 90, 140, 1) -20%, rgba(2, 17, 45, 1) 60%)",
-
-        // "footer-gradient":
-        //   "radial-gradient(circle at 50% -90%,  rgba(1, 84, 103, 100), rgba(1, 14, 51, 100))",
-        // "radial-gradient(circle at 50% 80%, rgba(1, 14, 51, 100), #0A1F3D 80%)",
+        "owner-gradient":
+          "radial-gradient(ellipse at 50% 50%, rgba(9, 90, 140, 1) -70%, rgba(2, 17, 45, 1) 100%)",
       },
     },
   },
