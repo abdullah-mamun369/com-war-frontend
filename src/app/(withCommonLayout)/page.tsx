@@ -1,3 +1,4 @@
+import Gallery from "@/components/UI/Homepage/Gallery/Gallery";
 import NewsTicker from "@/components/UI/Homepage/NewsTicker/NewsTicker";
 import OurSquad from "@/components/UI/Homepage/OurSquad/OurSquad";
 import OwnerQuote from "@/components/UI/Homepage/OwnerQuote/OwnerQuote";
@@ -12,6 +13,7 @@ export default function Home() {
       <TeamPartners />
       <OurSquad />
       <OwnerQuote />
+      <Gallery />
     </>
   );
 }
