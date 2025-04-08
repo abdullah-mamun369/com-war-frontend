@@ -19,7 +19,7 @@ const Players = () => {
   }, [setPlayers]);
 
   return (
-    <CustonCarosel className="pl-20 lg:pl-0">
+    <CustonCarosel className="pl-0 lg:pl-20">
       {players.map((player: Player, index: number) => (
         <div
           key={index}

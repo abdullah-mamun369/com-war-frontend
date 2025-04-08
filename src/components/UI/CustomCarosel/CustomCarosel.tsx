@@ -26,7 +26,7 @@ const CustonCarosel: React.FC<FlexibleCarouselProps> = ({
   };
 
   return (
-    <div className={`w-full max-w-full relative ${className}`}>
+    <div className={`w-full relative ${className}`}>
       <div className="overflow-hidden">
         <div
           ref={containerRef}
@@ -38,13 +38,13 @@ const CustonCarosel: React.FC<FlexibleCarouselProps> = ({
 
       <button
         onClick={() => scroll("left")}
-        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-2  shadow-md hover:shadow-lg hover:scale-125 bg-gradient-to-tl from-primary to-secondary rounded-full transition-all duration-300 ease-in-out"
+        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-2  shadow-md hover:shadow-lg hover:scale-125 bg-gradient-to-tl from-primary to-secondary rounded-full transition-all duration-300 ease-in-out sm:block hidden"
       >
         <ChevronLeft className="w-5 h-5" />
       </button>
       <button
         onClick={() => scroll("right")}
-        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-2 shadow-md hover:shadow-lg hover:scale-125 bg-gradient-to-tl from-primary to-secondary rounded-full transition-all duration-300 ease-in-out"
+        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-2 shadow-md hover:shadow-lg hover:scale-125 bg-gradient-to-tl from-primary to-secondary rounded-full transition-all duration-300 ease-in-out sm:block hidden"
       >
         <ChevronRight className="w-5 h-5" />
       </button>
