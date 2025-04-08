@@ -20,7 +20,7 @@ const OurSquad = () => {
       {/* Content on top of the background */}
       <Container className=" flex flex-col items-center justify-center h-full text-white text-center px-4">
         <Heading title="OUR SQUAD" subtitle="Meet our squad for 2025 season." />
-        <div>
+        <div className="my-6 md:my-8">
           <Players />
         </div>
         <div className="mt-3 md:mt-6 text-center">

@@ -21,9 +21,9 @@ const TeamPartners = () => {
       />
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-0 mt-6 md:mt-6">
         <div className="relative border-gray-300 mr-4 ">
-          <div className="border-t-2 border-b-2 border-gray-300 mr-5">
+          <div className=" md:border-t-2 md:border-b-2 border-gray-300 mr-5">
             <div>
-              <h3 className="text-primary text-2xl font-semibold text-center mt-5">
+              <h3 className="text-primary text-xl md:text-2xl font-semibold text-center mt-5">
                 PRINCIPAL PARTNERS
               </h3>
 
@@ -33,14 +33,14 @@ const TeamPartners = () => {
                   width={200}
                   height={100}
                   alt="sponsorLogo"
-                  className=""
+                  className="w-36 md:w-[200px]"
                 />
                 <Image
                   src={aum}
                   width={200}
                   height={100}
                   alt="sponsorLogo"
-                  className=""
+                  className="w-36 md:w-[200px]"
                 />
               </div>
             </div>
