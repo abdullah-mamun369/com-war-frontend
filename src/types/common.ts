@@ -7,7 +7,7 @@ export interface Player {
   wicketKepper: string;
   nationality: string;
   playerSince: string | number;
-  biohraphy: string;
+  biography: string;
   email: string;
   squadImage: string;
   profileImage: string;

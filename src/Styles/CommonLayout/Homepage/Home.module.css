@@ -31,3 +31,11 @@
     transform: translateX(-100%);
   }
 }
+
+.noScrollbar::-webkit-scrollbar {
+  display: none;
+}
+.noScrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
