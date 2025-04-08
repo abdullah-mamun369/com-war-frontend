@@ -7,7 +7,7 @@ import Players from "./Players";
 
 const OurSquad = () => {
   return (
-    <section className="relative hidden md:flex justify-center items-center w-full h-[500px] sm:h-[600px] md:h-[700px] bg-cover bg-center">
+    <section className="relative hidden md:flex justify-center items-center w-full h-[500px] sm:h-[600px] md:h-[700px] bg-cover bg-center mb-20">
       <div className="absolute -z-10 w-full">
         <Image
           src={footerBg}
