@@ -26,7 +26,11 @@ const Players = () => {
           className="pl-1 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 snap-start shrink-0"
         >
           <div className="flex">
-            <Link href="/" onClick={() => setPlayer(player)} className="">
+            <Link
+              href="/"
+              onClick={() => setPlayer(player)}
+              className="hover:scale-110 transition-all duration-300 ease-in-out"
+            >
               <Image
                 src={player.squadImage}
                 alt={player.fullName}
