@@ -1,4 +1,5 @@
 import CwShop from "@/components/UI/Homepage/CwShop/CwShop";
+import CwTrophy from "@/components/UI/Homepage/CwTrophy/CwTrophy";
 import Gallery from "@/components/UI/Homepage/Gallery/Gallery";
 import NewsTicker from "@/components/UI/Homepage/NewsTicker/NewsTicker";
 import OurSquad from "@/components/UI/Homepage/OurSquad/OurSquad";
@@ -16,6 +17,7 @@ export default function Home() {
       <OwnerQuote />
       <Gallery />
       <CwShop />
+      <CwTrophy />
     </>
   );
 }

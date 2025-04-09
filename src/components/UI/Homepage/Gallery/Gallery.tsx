@@ -6,7 +6,7 @@ import ImageContainer from "./ImageContainer";
 const Gallery = () => {
   return (
     <section className="mb-20">
-      <Container className=" flex flex-col items-center justify-center h-full  px-4">
+      <Container className=" flex flex-col items-center justify-center h-full px-4">
         <Heading
           title="GALLERY"
           subtitle="Explore all the unforgettable moments with Comilla Warriors."
