@@ -13,9 +13,18 @@ export interface Player {
   profileImage: string;
 }
 
+export interface GalleryImage {
+  _id: number;
+  url: string;
+  alt: string;
+  title: string;
+}
+
 export interface AppContextType {
   player: Player | {};
   setPlayer: (player: Player | {}) => void;
   players: Player[];
   setPlayers: (players: Player[]) => void;
+  galleryImages: GalleryImage[];
+  setGalleryImages: (images: GalleryImage[]) => void;
 }

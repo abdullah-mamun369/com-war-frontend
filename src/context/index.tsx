@@ -1,6 +1,6 @@
 "use client";
 
-import { AppContextType, Player } from "@/types";
+import { AppContextType, GalleryImage, Player } from "@/types";
 import { createContext, useContext, useState, ReactNode } from "react";
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -12,9 +12,19 @@ interface AppProviderProps {
 export const AppProvider = ({ children }: AppProviderProps) => {
   const [player, setPlayer] = useState<Player | {}>({});
   const [players, setPlayers] = useState<Player[]>([]);
+  const [galleryImages, setGalleryImages] = useState<GalleryImage[]>([]);
 
   return (
-    <AppContext.Provider value={{ player, setPlayer, players, setPlayers }}>
+    <AppContext.Provider
+      value={{
+        player,
+        setPlayer,
+        players,
+        setPlayers,
+        galleryImages,
+        setGalleryImages,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );

@@ -2,126 +2,151 @@
   {
     "_id": 1,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136176/g20_rkjfqr.jpg",
-    "title": "Countdown to Season 2024 Begins"
+    "title": "Countdown to Season 2024 Begins",
+    "alt": "Players and fans gearing up for the start of Season 2024"
   },
   {
     "_id": 2,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136169/g19_qyelt6.jpg",
-    "title": "Royal Hunter's Road to Redemption"
+    "title": "Royal Hunter's Road to Redemption",
+    "alt": "Royal Hunter team preparing for a comeback season"
   },
   {
     "_id": 3,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136174/g24_u9ya20.jpg",
-    "title": "Meet the New Faces – 2024 Squad Reveal"
+    "title": "Meet the New Faces – 2024 Squad Reveal",
+    "alt": "New players introduced for the 2024 squad"
   },
   {
     "_id": 4,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136175/g22_mvtnbm.jpg",
-    "title": "Comilla Warriors' Training Camp Highlights"
+    "title": "Comilla Warriors' Training Camp Highlights",
+    "alt": "Training session in progress for Comilla Warriors"
   },
   {
     "_id": 5,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136176/g25_fkiish.jpg",
-    "title": "Throwback to the 2023 Final"
+    "title": "Throwback to the 2023 Final",
+    "alt": "Flashback photo from the 2023 cricket final"
   },
   {
     "_id": 6,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136175/g21_pszetb.jpg",
-    "title": "Behind the Scenes: Kit Launch 2024"
+    "title": "Behind the Scenes: Kit Launch 2024",
+    "alt": "Backstage look at the 2024 kit presentation"
   },
   {
     "_id": 7,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136168/g14_uvw7xy.jpg",
-    "title": "Rising Stars to Watch This Season"
+    "title": "Rising Stars to Watch This Season",
+    "alt": "Young talent featured for the 2024 cricket season"
   },
   {
     "_id": 8,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136169/g7_cbyorm.jpg",
-    "title": "Warriors vs Hunters – Rivalry Renewed"
+    "title": "Warriors vs Hunters – Rivalry Renewed",
+    "alt": "Clash between Comilla Warriors and Royal Hunter"
   },
   {
     "_id": 9,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136167/g17_tsrmns.jpg",
-    "title": "2024 Season Opener – Matchday Vibes"
+    "title": "2024 Season Opener – Matchday Vibes",
+    "alt": "Excitement building for the first match of the season"
   },
   {
     "_id": 10,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136168/g16_uolaqf.jpg",
-    "title": "Team Chemistry: Warriors Practice Session"
+    "title": "Team Chemistry: Warriors Practice Session",
+    "alt": "Comilla Warriors players during a practice session"
   },
   {
     "_id": 11,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136168/g11_vba2vw.jpg",
-    "title": "Royal Hunter’s Captain Speaks Ahead of Season"
+    "title": "Royal Hunter’s Captain Speaks Ahead of Season",
+    "alt": "Captain of Royal Hunter addressing the media"
   },
   {
     "_id": 12,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136169/g18_kc37lj.jpg",
-    "title": "Moments that Defined 2023"
+    "title": "Moments that Defined 2023",
+    "alt": "Iconic highlights from the 2023 cricket season"
   },
   {
     "_id": 13,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136174/g23_bjmmfu.jpg",
-    "title": "Jersey Number Reveal – What’s New in 2024"
+    "title": "Jersey Number Reveal – What’s New in 2024",
+    "alt": "Unveiling the new jersey numbers for 2024"
   },
   {
     "_id": 14,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136167/g17_tsrmns.jpg",
-    "title": "Match Preview: Warriors vs Titans"
+    "title": "Match Preview: Warriors vs Titans",
+    "alt": "Previewing the big clash between Warriors and Titans"
   },
   {
     "_id": 15,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136168/g16_uolaqf.jpg",
-    "title": "Team Bonding – Off the Field with Royal Hunter"
+    "title": "Team Bonding – Off the Field with Royal Hunter",
+    "alt": "Royal Hunter players spending time off the field"
   },
   {
     "_id": 16,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136166/g10_nn8ii1.jpg",
-    "title": "2024 Dream XI – Fan Predictions"
+    "title": "2024 Dream XI – Fan Predictions",
+    "alt": "Fans vote for their dream team for the 2024 season"
   },
   {
     "_id": 17,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136164/g8_p3duyi.jpg",
-    "title": "Player of the Week: Spotlight Feature"
+    "title": "Player of the Week: Spotlight Feature",
+    "alt": "Spotlight on top-performing player of the week"
   },
   {
     "_id": 18,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136164/g6_rejepc.jpg",
-    "title": "Epic Moments – 2023 Recap Video"
+    "title": "Epic Moments – 2023 Recap Video",
+    "alt": "Video highlights capturing epic 2023 cricket moments"
   },
   {
     "_id": 19,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136163/g4_wql3uf.jpg",
-    "title": "The Warriors' Wall – Top Bowlers of 2023"
+    "title": "The Warriors' Wall – Top Bowlers of 2023",
+    "alt": "Best bowlers of Comilla Warriors from last season"
   },
   {
     "_id": 20,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136163/g13_lzbmd8.jpg",
-    "title": "Meet the Coaching Staff – 2024 Edition"
+    "title": "Meet the Coaching Staff – 2024 Edition",
+    "alt": "Introduction of the 2024 coaching team"
   },
   {
     "_id": 21,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136162/g12_cshkrx.jpg",
-    "title": "Record Breakers from Last Season"
+    "title": "Record Breakers from Last Season",
+    "alt": "Players who broke records in the 2023 season"
   },
   {
     "_id": 22,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136162/g5_plxhqp.jpg",
-    "title": "Fitness Drills – Inside Preseason Camp"
+    "title": "Fitness Drills – Inside Preseason Camp",
+    "alt": "Inside look at preseason fitness drills and training"
   },
   {
     "_id": 23,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136161/g1_lkbrzl.jpg",
-    "title": "Who Will Be the Game Changer in 2024?"
+    "title": "Who Will Be the Game Changer in 2024?",
+    "alt": "Speculation around breakout stars for the 2024 season"
   },
   {
     "_id": 24,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136164/g15_ffikuk.jpg",
-    "title": "The Hunters Reloaded – New Tactics for 2024"
+    "title": "The Hunters Reloaded – New Tactics for 2024",
+    "alt": "Royal Hunter team preparing with new strategies"
   },
   {
     "_id": 25,
     "url": "https://res.cloudinary.com/dy9af54ph/image/upload/v1744136166/g10_nn8ii1.jpg",
-    "title": "Clash of Champions – 2023 Rewind & 2024 Preview"
+    "title": "Clash of Champions – 2023 Rewind & 2024 Preview",
+    "alt": "Looking back at 2023 champions and previewing 2024"
   }
 ]
