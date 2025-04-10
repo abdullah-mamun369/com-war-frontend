@@ -1,3 +1,4 @@
+import ContactUs from "@/components/UI/Homepage/ContactUs/ContactUs";
 import CwShop from "@/components/UI/Homepage/CwShop/CwShop";
 import CwTrophy from "@/components/UI/Homepage/CwTrophy/CwTrophy";
 import Gallery from "@/components/UI/Homepage/Gallery/Gallery";
@@ -18,6 +19,7 @@ export default function Home() {
       <Gallery />
       <CwShop />
       <CwTrophy />
+      <ContactUs />
     </>
   );
 }
