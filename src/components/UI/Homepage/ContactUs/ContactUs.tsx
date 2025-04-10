@@ -45,7 +45,7 @@ const ContactUs = () => {
             className="col-span-1 md:col-span-2 max-w-2xl mt-2"
           />
         </div>
-        <div className="mt-3 md:mt-10 text-center">
+        <div className="mt-5 md:mt-10 text-center">
           <Button variant="contained" color="primary">
             SEND MESSAGE
           </Button>
