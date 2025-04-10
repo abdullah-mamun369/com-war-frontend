@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div className="relative h-fit bg-footer-gradient">
       <Container>
-        <div className="container flex flex-col md:flex-row justify-between pl-7 py-5 md:py-16 p md:pl-0">
+        <div className="container flex flex-col md:flex-row justify-between pl-7 py-5 md:py-16 p md:pl-0 px-4">
           {/* About Section */}
           <div className="mb-10 md:mb-0">
             <h2 className="text-xl text-white font-semibold mb-5">About</h2>

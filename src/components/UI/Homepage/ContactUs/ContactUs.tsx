@@ -8,20 +8,20 @@ import TextareaWithLabel from "../../Form/TextareaWithLabel";
 
 const ContactUs = () => {
   return (
-    <section className="relative w-full h-[550px]">
+    <section className="relative w-full h-[550px] flex items-center justify-center ">
       <Image
         src={contactBg}
         alt="C.W. Trophy"
         width={850}
         height={400}
-        className="absolute left-0 bottom-0 -z-10 w-64 lg:w-[850px]"
+        className="absolute left-0 bottom-0 -z-10"
       />
       <Container className="flex justify-center items-center h-full flex-col text-white z-20 mx-4">
         <Heading
           title="CONTACT US"
           subtitle="We’re here to help—get in touch."
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3 md:mt-8 w-full max-w-xs md:max-w-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3 md:mt-8 w-full max-w-2xl">
           <InputWithLabel
             id="name"
             label="Name"
