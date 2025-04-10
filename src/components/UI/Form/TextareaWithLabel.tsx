@@ -14,9 +14,7 @@ const TextareaWithLabel: React.FC<TextareaWithLabelProps> = ({
   ...props
 }) => {
   return (
-    <div
-      className={`grid w-full max-w-sm items-center gap-1.5 ${className} bg-none`}
-    >
+    <div className={`grid w-full items-center gap-1.5 ${className} bg-none`}>
       <label htmlFor={id} className="text-sm font-medium text-gray-700">
         {label}
       </label>

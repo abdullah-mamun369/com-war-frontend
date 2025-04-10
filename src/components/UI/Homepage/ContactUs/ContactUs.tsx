@@ -14,9 +14,9 @@ const ContactUs = () => {
         alt="C.W. Trophy"
         width={850}
         height={400}
-        className="absolute left-0 bottom-0 -z-10"
+        className="absolute left-0 bottom-0 -z-10 w-80 lg:w-[850px]"
       />
-      <Container className="flex justify-center items-center h-full flex-col text-white z-20 mx-4">
+      <Container className="flex justify-center items-center h-full flex-col text-white z-20 px-5">
         <Heading
           title="CONTACT US"
           subtitle="We’re here to help—get in touch."
@@ -42,7 +42,7 @@ const ContactUs = () => {
             label="Message"
             placeholder="Write your message here..."
             rows={4}
-            className="col-span-1 md:col-span-2 max-w-full mt-2"
+            className="col-span-1 md:col-span-2 max-w-2xl mt-2"
           />
         </div>
         <div className="mt-3 md:mt-10 text-center">
