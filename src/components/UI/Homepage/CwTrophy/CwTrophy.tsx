@@ -11,10 +11,10 @@ import trophy4 from "@/assets/t7.png";
 import trophy5 from "@/assets/t5.png";
 
 const trophies = [
-  { src: trophy1, label: "LPL Trophy" },
-  { src: trophy2, label: "NAS Trophy" },
   { src: trophy3, label: "London Champion Trophy" },
   { src: trophy4, label: "AIS Trophy" },
+  { src: trophy2, label: "NAS Trophy" },
+  { src: trophy1, label: "LPL Trophy" },
   { src: trophy5, label: "Tri-Nation Trophy" },
 ];
 
@@ -26,7 +26,7 @@ const CwTrophy = () => {
         alt="C.W. Trophy"
         width={1920}
         height={100}
-        className="w-full"
+        className="w-full h-96 lg:h-fit"
       />
       <Container className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="text-center px-5 lg:px-0">
@@ -45,10 +45,10 @@ const CwTrophy = () => {
                   src={trophy.src}
                   alt={trophy.label}
                   width={170}
-                  height={200}
-                  className="object-contain"
+                  height={100}
+                  className="object-contain w-16 lg:w-44"
                 />
-                <span className="mt-2 text-white text-sm text-center">
+                <span className="mt-2 text-white text-[6px] lg:text-sm text-center">
                   {trophy.label}
                 </span>
               </div>
