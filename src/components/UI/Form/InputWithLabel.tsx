@@ -13,7 +13,7 @@ const InputWithLabel: React.FC<InputWithLabelProps> = ({
   ...props
 }) => {
   return (
-    <div className={`grid w-full w-2xl items-center gap-1.5 ${className}`}>
+    <div className={`grid w-full items-center gap-1.5 ${className}`}>
       <label htmlFor={id} className="text-sm font-medium text-gray-700">
         {label}
       </label>
