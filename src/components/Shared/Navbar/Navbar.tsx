@@ -60,21 +60,21 @@ const Navbar = () => {
             <div className={`flex-1 justify-self-center md:block}`}>
               <div className="h-auto flex items-center gap-8">
                 {[
-                  "HOME",
-                  "ABOUT US",
-                  "TEAM",
-                  "EVENTS",
-                  "GALLERY",
-                  "NEWS",
-                  "CONTACT",
+                  { name: "HOME", hRef: "/" },
+                  { name: "ABOUT US", hRef: "/about-us" },
+                  { name: "TEAM", hRef: "/team" },
+                  { name: "CW EVENTS", hRef: "/cw-events" },
+                  { name: "GALLERY", hRef: "/gallery" },
+                  { name: "NEWS", hRef: "/news" },
+                  { name: "CONTACT", hRef: "/contact" },
                 ].map((item, index) => (
                   <Link
                     key={index}
-                    href={`/${item.toLowerCase().replace(/\s+/g, "-")}`}
+                    href={`${item.hRef}`}
                     onClick={() => setNavbar(!navbar)}
                     className="text-sm text-white hover:text-secondary transition duration-300 ease-in-out"
                   >
-                    {item}
+                    {item.name}
                   </Link>
                 ))}
               </div>
@@ -118,21 +118,21 @@ const Navbar = () => {
               </button>
               <div className="h-full flex items-center justify-center flex-col gap-5">
                 {[
-                  "HOME",
-                  "ABOUT US",
-                  "TEAM",
-                  "EVENTS",
-                  "GALLERY",
-                  "NEWS",
-                  "CONTACT",
+                  { name: "HOME", hRef: "/" },
+                  { name: "ABOUT US", hRef: "/about-us" },
+                  { name: "TEAM", hRef: "/team" },
+                  { name: "CW EVENTS", hRef: "/cw-events" },
+                  { name: "GALLERY", hRef: "/gallery" },
+                  { name: "NEWS", hRef: "/news" },
+                  { name: "CONTACT", hRef: "/contact" },
                 ].map((item, index) => (
                   <Link
                     key={index}
-                    href={`/${item.toLowerCase().replace(/\s+/g, "-")}`}
-                    onClick={() => setNavbar(false)}
-                    className="pb-6 text-sm text-white hover:text-secondary transition duration-300 ease-in-out"
+                    href={`${item.hRef}`}
+                    onClick={() => setNavbar(!navbar)}
+                    className="text-sm text-white hover:text-secondary transition duration-300 ease-in-out"
                   >
-                    {item}
+                    {item.name}
                   </Link>
                 ))}
               </div>

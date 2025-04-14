@@ -8,6 +8,7 @@ import slider3 from "@/assets/CW-website-banner-3.png";
 import slider4 from "@/assets/CW-website-banner-4.png";
 import Button from "../../Button/Button";
 import Container from "../../Container/Container";
+import Link from "next/link";
 
 const images = [slider1, slider2, slider3, slider4];
 
@@ -39,11 +40,15 @@ const Slider = () => {
               </span>
             </p>
           </div>
-          <div className="mt-3 md:mt-6">
-            <Button variant="outlined" color="secondary">
+          <Link href="/contact">
+            <Button
+              variant="outlined"
+              color="secondary"
+              className="mt-3 md:mt-6"
+            >
               JOIN THE TEAM
             </Button>
-          </div>
+          </Link>
         </div>
       </Container>
 

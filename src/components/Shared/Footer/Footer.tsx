@@ -76,20 +76,20 @@ const Footer = () => {
           {/* Navigation Links */}
           <div className="h-auto items-center justify-center hidden md:flex flex-col gap-5 md:gap-6">
             {[
-              "HOME",
-              "ABOUT US",
-              "TEAM",
-              "EVENTS",
-              "GALLERY",
-              "NEWS",
-              "CONTACT",
+              { name: "HOME", hRef: "/" },
+              { name: "ABOUT US", hRef: "/about-us" },
+              { name: "TEAM", hRef: "/team" },
+              { name: "CW EVENTS", hRef: "/cw-events" },
+              { name: "GALLERY", hRef: "/gallery" },
+              { name: "NEWS", hRef: "/news" },
+              { name: "CONTACT", hRef: "/contact" },
             ].map((item, index) => (
               <Link
                 key={index}
-                href={`/${item.toLowerCase().replace(/\s+/g, "-")}`}
-                className="pb text-sm text-white hover:text-[#62D4F9] transition duration-300 ease-in-out"
+                href={`${item.hRef}`}
+                className="text-sm text-white hover:text-secondary transition duration-300 ease-in-out"
               >
-                {item}
+                {item.name}
               </Link>
             ))}
           </div>
