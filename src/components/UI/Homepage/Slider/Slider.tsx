@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import slider1 from "@/assets/CW-website-banner-1.png";
-import slider2 from "@/assets/CW-website-banner-2.png";
-import slider3 from "@/assets/CW-website-banner-3.png";
-import slider4 from "@/assets/CW-website-banner-4.png";
+import slider1 from "@/assets/CW-website-banner-1.webp";
+import slider2 from "@/assets/CW-website-banner-2.webp";
+import slider3 from "@/assets/CW-website-banner-3.webp";
+import slider4 from "@/assets/CW-website-banner-4.webp";
 import Button from "../../Button/Button";
 import Container from "../../Container/Container";
 import Link from "next/link";
