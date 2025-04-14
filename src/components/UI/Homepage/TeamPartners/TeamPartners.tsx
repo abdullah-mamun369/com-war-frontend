@@ -11,6 +11,7 @@ import bkConsult from "@/assets/bk-consultacy 1.png";
 import educare from "@/assets/educare 1.png";
 import parking from "@/assets/parking-control 1.png";
 import tahmina from "@/assets/Tahmina 1.png";
+import Link from "next/link";
 
 const TeamPartners = () => {
   return (
@@ -129,9 +130,11 @@ const TeamPartners = () => {
       </div>
 
       <div className="mt-3 md:mt-6 text-center">
-        <Button variant="contained" color="primary">
-          VIEW ALL PARTNERS
-        </Button>
+        <Link href={"/team-partners"}>
+          <Button variant="contained" color="primary">
+            VIEW ALL PARTNERS
+          </Button>
+        </Link>
       </div>
     </Container>
   );

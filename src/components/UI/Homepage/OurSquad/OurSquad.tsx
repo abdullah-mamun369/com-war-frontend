@@ -4,6 +4,7 @@ import Container from "../../Container/Container";
 import Button from "../../Button/Button";
 import Heading from "../../Heading/Heading";
 import Players from "./Players";
+import Link from "next/link";
 
 const OurSquad = () => {
   return (
@@ -24,9 +25,11 @@ const OurSquad = () => {
           <Players />
         </div>
         <div className="mt-3 md:mt-6 text-center">
-          <Button variant="contained" color="primary">
-            VIEW FULL SQUAD
-          </Button>
+          <Link href={"/team"}>
+            <Button variant="contained" color="primary">
+              VIEW FULL SQUAD
+            </Button>
+          </Link>
         </div>
       </Container>
     </section>

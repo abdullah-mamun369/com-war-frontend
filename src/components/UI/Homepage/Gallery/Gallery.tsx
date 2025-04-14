@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../../Button/Button";
 import Container from "../../Container/Container";
 import Heading from "../../Heading/Heading";
@@ -16,9 +17,11 @@ const Gallery = () => {
         </div>
 
         <div className="mt-3 md:mt-10 text-center">
-          <Button variant="contained" color="primary">
-            VIEW FULL GALLERY
-          </Button>
+          <Link href={"/gallery"}>
+            <Button variant="contained" color="primary">
+              VIEW FULL GALLERY
+            </Button>
+          </Link>
         </div>
       </Container>
     </section>

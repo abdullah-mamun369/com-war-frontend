@@ -34,9 +34,15 @@ const CwShop = () => {
           ))}
         </div>
         <div className="mt-3 md:mt-10 text-center">
-          <Button variant="contained" color="primary">
-            VIEW SHOP
-          </Button>
+          <a
+            href="https://www.gray-nicolls.co.uk/collections/comilla-warriors-cc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="contained" color="primary">
+              VIEW SHOP
+            </Button>
+          </a>
         </div>
       </Container>
     </section>
