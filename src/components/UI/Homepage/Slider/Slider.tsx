@@ -35,7 +35,7 @@ const Slider = () => {
     <div className="relative w-full h-full md:h-screen overflow-hidden mt-14 md:mt-0">
       {/* Loader */}
       {loading && (
-        <div className="absolute inset-0 z-50 bg-black flex items-center justify-center">
+        <div className="absolute inset-0 z-50 bg-footer-gradient flex items-center justify-center">
           <LoadingDesign />
         </div>
       )}
