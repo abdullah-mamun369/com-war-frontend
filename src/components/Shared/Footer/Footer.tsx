@@ -56,19 +56,24 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="hidden md:flex items-center gap-3">
               {[
-                FaFacebookF,
-                BiLogoInstagramAlt,
-                FaSquareXTwitter,
-                FaLinkedinIn,
-                FaYoutube,
+                {
+                  icon: FaFacebookF,
+                  hRef: "https://www.facebook.com/Comillawarriorsofficial",
+                },
+                { icon: BiLogoInstagramAlt, hRef: "https://www.instagram.com" },
+                { icon: FaSquareXTwitter, hRef: "https://twitter.com" },
+                { icon: FaLinkedinIn, hRef: "https://www.linkedin.com" },
+                { icon: FaYoutube, hRef: "https://www.youtube.com" },
               ].map((Icon, index) => (
-                <Link
-                  href="/"
+                <a
+                  href={Icon.hRef}
                   key={index}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center w-7 h-7 border border-[#62D4F9] rounded-full text-[#62D4F9] hover:bg-[#62D4F9] hover:text-black transition duration-300 ease-in-out"
                 >
-                  <Icon className="text-sm" />
-                </Link>
+                  <Icon.icon className="text-sm" />
+                </a>
               ))}
             </div>
           </div>
