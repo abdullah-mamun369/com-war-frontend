@@ -6,7 +6,6 @@ import product2 from "@/assets/2.jpg";
 import product3 from "@/assets/3.jpg";
 import product4 from "@/assets/4.jpg";
 import Image from "next/image";
-import Link from "next/link";
 
 const CwShop = () => {
   const products = [product1, product2, product3, product4];
@@ -21,7 +20,11 @@ const CwShop = () => {
         <div className="flex justify-center items-center gap-2 lg:gap-5 mt-3 md:mt-8 roun">
           {products.map((product, index) => (
             <div key={index}>
-              <Link href="/">
+              <a
+                href="https://www.gray-nicolls.co.uk/collections/comilla-warriors-cc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src={product}
                   alt={index.toString()}
@@ -29,7 +32,7 @@ const CwShop = () => {
                   height={100}
                   className="rounded-lg hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
                 />
-              </Link>
+              </a>
             </div>
           ))}
         </div>
