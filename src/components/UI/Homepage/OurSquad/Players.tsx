@@ -27,7 +27,7 @@ const Players = () => {
         >
           <div className="flex">
             <Link
-              href="/"
+              href={`/team/${player.id}`}
               onClick={() => setPlayer(player)}
               className="hover:scale-110 transition-all duration-300 ease-in-out"
             >
