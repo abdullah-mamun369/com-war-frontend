@@ -4,8 +4,6 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -22,6 +20,10 @@ module.exports = {
           "radial-gradient(ellipse at 50% 110%, rgba(9, 90, 140, 1) -20%, rgba(2, 17, 45, 1) 60%)",
         "owner-gradient":
           "radial-gradient(ellipse at 50% 50%, rgba(9, 90, 140, 1) -70%, rgba(2, 17, 45, 1) 100%)",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        oswald: ["Oswald", "sans-serif"],
       },
     },
   },

@@ -30,8 +30,8 @@ const CwTrophy = () => {
       />
       <Container className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="text-center px-5 lg:px-0">
-          <h1 className="text-2xl md:text-4xl font-bold text-white">
-            <span className="text-secondary">C.W.</span> SHOP
+          <h1 className="text-2xl md:text-4xl font-bold text-white font-oswald">
+            <span className="text-secondary">C.W.</span> TROPHY
           </h1>
           <p className="text-base text-white">
             Get your hands on exclusive Comilla Warriors gear and merchandise.
