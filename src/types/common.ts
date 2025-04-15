@@ -22,8 +22,8 @@ export interface GalleryImage {
 }
 
 export interface AppContextType {
-  player: Player | {};
-  setPlayer: (player: Player | {}) => void;
+  player: Player | null;
+  setPlayer: (player: Player | null) => void;
   players: Player[];
   setPlayers: (players: Player[]) => void;
   galleryImages: GalleryImage[];

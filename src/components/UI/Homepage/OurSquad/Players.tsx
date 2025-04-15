@@ -11,10 +11,10 @@ import CustonCarosel from "../../CustomCarosel/CustomCarosel";
 const Players = () => {
   const { player, setPlayer, players, setPlayers } = useAppContext();
 
-  console.log("Player:", player);
+  // console.log("Player:", player);
 
   useEffect(() => {
-    console.log("Imported players:", playersApi);
+    // console.log("Imported players:", playersApi);
     setPlayers(playersApi as Player[]);
   }, [setPlayers]);
 

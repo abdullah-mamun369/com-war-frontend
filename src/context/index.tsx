@@ -10,7 +10,7 @@ interface AppProviderProps {
 }
 
 export const AppProvider = ({ children }: AppProviderProps) => {
-  const [player, setPlayer] = useState<Player | {}>({});
+  const [player, setPlayer] = useState<Player | null>(null);
   const [players, setPlayers] = useState<Player[]>([]);
   const [galleryImages, setGalleryImages] = useState<GalleryImage[]>([]);
 
